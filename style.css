@@ -1,0 +1,128 @@
+*,*:before,*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+img{
+    max-width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.mb-2{
+    margin-bottom: 20px;
+}
+.mb-3{
+    margin-bottom: 30px;
+}
+.mb-4{
+    margin-bottom: 40px;
+}
+.app-note{
+    color: #df0000;
+}
+.app-btn{
+    padding: 10px 20px;
+    background-color: #111;
+    color: #ffc847;
+    outline-offset: 3px;
+}
+.common-container{
+    max-width: 1366px;
+    padding-inline: 30px;
+    margin-inline: auto;
+}
+.common-sec-pad{
+    padding-block: 30px;
+}
+.main-header nav a{
+    display: block;
+    padding: 10px 15px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+}
+.main-header nav a:hover,
+.main-header nav a:focus,
+.main-header nav a:active,
+.main-header nav a.active{
+    color: blue;            
+}
+.main-header{
+    background-color: #fff;
+}
+.main-header .common-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-header .wrap{
+    max-width: 80px;
+}
+.section-dark{
+    background-color: #111;
+    color: #ffc847;
+}
+.section-light{
+    background-color: #ffc847;
+    color: #111;
+}
+.section-intro{
+    text-align: center;
+}
+.section-intro header{
+    margin-bottom: 30px;
+}
+.section-intro .intro-img{
+    width: 350px;
+    margin-inline: auto;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.app-form{
+    border: 1px solid #000;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 500px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group > label{
+    display: block;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    padding: 3px 10px;
+    box-shadow: none;
+}
+fieldset{
+    padding: 15px;
+}
+.main-footer{
+    background-color: #111;
+    padding-block: 10px;
+    color: #fff;
+}
+@media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-delay: -1ms !important;
+      animation-duration: 1ms !important;
+      animation-iteration-count: 1 !important;
+      background-attachment: initial !important;
+      scroll-behavior: auto !important;
+      transition-duration: 0s !important;
+      transition-delay: 0s !important;
+    }
+  }

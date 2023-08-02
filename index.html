@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth Malhotra Info Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="description" content="The website provides information about Siddharth Malhotra."/>
+    <meta name="author" content="Krunalsinh Vaghela" />
+    <meta name="keywords" content="bolliwood, Siddharth Malhotra" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="common-container">
+            <div class="wrap">
+                <img src="./logo.svg" class="header-logo" alt="Bollywood Owl" width="80" height="80">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section-intro section-dark common-sec-pad">
+            <div class="common-container">
+                <header>
+                    <h1>Welcome to the Siddharth Malhotra Info Page</h1>
+                </header>
+                <img width="350" height="196" src="./sidharth-malhotra-img.jpg" alt="Siddharth Malhotra portrait photo" class="intro-img" />
+                <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reiciendis cum facilis laudantium ex nemo veniam eos reprehenderit autem esse vero incidunt, velit culpa quisquam molestiae eveniet nihil perferendis repellat?</p>
+            </div>
+        </section>
+        <section class="section-find-out-more section-light common-sec-pad">
+            <div class="common-container">
+                <h2 class="mb-3">Find out More</h2>
+                <p>To read more about Siddharth Malhotra on his IMDB page, please click on the below link.</p>
+                <a 
+                href="https://www.imdb.com/name/nm3289096/"
+                class="text-ancor"
+                target="_blank"
+                aria-label="Read more about iddharth Malhotra on his IMDB page">
+                    Read More (Opens in new tab)
+                </a>
+            </div>
+        </section>
+        <section class="section-contact-me common-sec-pad">
+            <div class="common-container">
+                <h2 class="mb-3">Contact Me</h2>
+                <p class="mb-2">If you'd like to chat to me directly about Siddharth Malhotra, please fill in the below form</p>
+                <form action="" class="app-form">
+                    <p class="app-note mb-2">All fields marked with * are required</p>
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" name="" id="name" class="form-control" placeholder="Enter Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="text" name="" id="email" class="form-control" placeholder="Enter Email" >
+                    </div>
+                    <div class="form-group">
+                        <fieldset>
+                            <legend>Nature of enquiry</legend>
+                            <div>
+                                <input type="checkbox" name="enquiry" id="his-films">
+                                <label for="his-films">His Films</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="enquiry" id="his-life">
+                                <label for="his-life">His Life</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="enquiry" id="other">
+                                <label for="other">Other</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="" id="message" rows="10" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="app-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="common-container">
+            <small>&copy; Copyright Krunalsinh Vaghela 2023</small>
+        </div>
+    </footer>
+</body>
+</html>
